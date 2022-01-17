@@ -5,8 +5,9 @@ html,
   background: #ffffff;
 }
 .container {
-  margin: 0 auto;
   padding: 32px 48px 0px;
+  display: flex;
+  flex-direction: column;
 }
 .page-header {
   background: #a8a8ff;
@@ -54,15 +55,14 @@ html,
 .table-header__header {
   height: 48px;
   background: #8055ff;
-  flex: 0 0 auto;
 }
 .table-header__body {
   height: 512px;
   background: #a8a8ff;
-  flex: 1 1 auto;
 }
 .table-header__footer {
   height: 48px;
   background: #8055ff;
-  flex: 0 0 auto;
+  position: sticky;
+  bottom: 0px;
 }
