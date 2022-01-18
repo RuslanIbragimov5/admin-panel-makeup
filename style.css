@@ -27,12 +27,12 @@ html,
 .filter-row__filter-group {
   display: flex;
 }
-.filter-row__filter-group__filter-input {
+.filter-row__filter-input {
   width: 256px;
   background: #8055ff;
   margin: 8px 8px;
 }
-.filter-row__filter-group__filter-button {
+.filter-row__filter-button {
   width: 32px;
   height: 32px;
   background: #8055ff;
@@ -59,6 +59,7 @@ html,
 .table-header__body {
   height: 512px;
   background: #a8a8ff;
+  overflow-y: scroll;
 }
 .table-header__footer {
   height: 48px;
