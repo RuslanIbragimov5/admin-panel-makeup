@@ -1,0 +1,72 @@
+html,
+.body {
+  height: 100%;
+}
+.container {
+  padding: 32px 48px 0px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.page-header {
+  background: #a8a8ff;
+}
+.page-header__page-name {
+  font-size: 26px;
+  line-height: 32px;
+  letter-spacing: -0.2px;
+  color: #8055ff;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+}
+.container__filter-row {
+  margin: 32px 0px;
+}
+.filter-row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 2px solid #a8a8ff;
+  padding: 8px 8px;
+}
+.filter-row__filter-group {
+  display: flex;
+  gap: 8px;
+}
+.filter-row__filter-input {
+  width: 256px;
+  background: #8055ff;
+}
+.filter-row__filter-button {
+  width: 32px;
+  height: 32px;
+  background: #8055ff;
+}
+.filter-row__filter-loading {
+  width: 32px;
+  height: 32px;
+  background: #8055ff;
+}
+.table {
+  display: flex;
+  flex-direction: column;
+  background: #8055ff;
+  border: 2px solid #8055ff;
+  box-sizing: border-box;
+  height: 100%;
+}
+.table__header {
+  background: #8055ff;
+  flex: 0 0 48px;
+}
+.table__body {
+  background: #a8a8ff;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.table__footer {
+  flex: 0 0 48px;
+}
