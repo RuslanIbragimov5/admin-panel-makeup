@@ -22,7 +22,7 @@ html,
   flex-direction: row;
   justify-content: space-between;
   border: 2px solid #a8a8ff;
-  margin: 32px 0px;
+  padding: 8px 8px;
 }
 .filter-row__filter-group {
   display: flex;
@@ -30,21 +30,19 @@ html,
 .filter-row__filter-input {
   width: 256px;
   background: #8055ff;
-  margin: 8px 8px;
 }
 .filter-row__filter-button {
   width: 32px;
   height: 32px;
   background: #8055ff;
-  margin: 8px 0px;
+  margin: 0px 8px;
 }
 .filter-row__filter-loading {
   width: 32px;
   height: 32px;
   background: #8055ff;
-  margin: 8px 8px;
 }
-.table-header {
+.table {
   display: flex;
   flex-direction: column;
   background: #8055ff;
@@ -52,16 +50,16 @@ html,
   box-sizing: border-box;
   max-height: 75.9vh;
 }
-.table-header__header {
+.table__header {
   height: 48px;
   background: #8055ff;
 }
-.table-header__body {
+.table__body {
   height: 512px;
   background: #a8a8ff;
   overflow-y: scroll;
 }
-.table-header__footer {
+.table__footer {
   height: 48px;
   background: #8055ff;
   position: sticky;
