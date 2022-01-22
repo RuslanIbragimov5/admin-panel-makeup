@@ -1,13 +1,12 @@
 html,
 .body {
   height: 100%;
-  margin: 0;
-  background: #ffffff;
 }
 .container {
   padding: 32px 48px 0px;
   display: flex;
   flex-direction: column;
+  height: 100%;
 }
 .page-header {
   background: #a8a8ff;
@@ -16,6 +15,10 @@ html,
   font-size: 26px;
   line-height: 32px;
   letter-spacing: -0.2px;
+  color: #8055ff;
+  font-family: "Ubuntu", sans-serif;
+  font-style: normal;
+  font-weight: bold;
 }
 .container__filter-row {
   margin: 32px 0px;
@@ -29,6 +32,7 @@ html,
 }
 .filter-row__filter-group {
   display: flex;
+  gap: 8px;
 }
 .filter-row__filter-input {
   width: 256px;
@@ -38,7 +42,6 @@ html,
   width: 32px;
   height: 32px;
   background: #8055ff;
-  margin: 0px 8px;
 }
 .filter-row__filter-loading {
   width: 32px;
@@ -51,20 +54,20 @@ html,
   background: #8055ff;
   border: 2px solid #8055ff;
   box-sizing: border-box;
-  max-height: 75.9vh;
+  height: 100%;
 }
 .table__header {
-  height: 48px;
   background: #8055ff;
+  flex: 0 0 48px;
 }
 .table__body {
-  height: 512px;
   background: #a8a8ff;
   overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
 }
 .table__footer {
-  height: 48px;
   background: #8055ff;
-  position: sticky;
-  bottom: 0px;
+  flex: 0 0 48px;
 }
