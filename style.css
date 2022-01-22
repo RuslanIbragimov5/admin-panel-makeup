@@ -17,6 +17,9 @@ html,
   line-height: 32px;
   letter-spacing: -0.2px;
 }
+.container__filter-row {
+  margin: 32px 0px;
+}
 .filter-row {
   display: flex;
   flex-direction: row;
