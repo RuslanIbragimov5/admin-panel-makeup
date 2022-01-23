@@ -20,6 +20,7 @@
   },
   "homepage": "https://github.com/RuslanIbragimov5/admin-panel-makeup#readme",
   "dependencies": {
-    "prettier": "^2.5.1"
+    "prettier": "^2.5.1",
+    "pre-commit": "^1.2.2"
   }
 }
