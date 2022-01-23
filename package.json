@@ -1,0 +1,23 @@
+{
+  "name": "admin-panel-makeup",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RuslanIbragimov5/admin-panel-makeup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RuslanIbragimov5/admin-panel-makeup/issues"
+  },
+  "homepage": "https://github.com/RuslanIbragimov5/admin-panel-makeup#readme",
+  "dependencies": {
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.5.1"
+  }
+}
