@@ -6,6 +6,9 @@
   "scripts": {
     "prettier": "prettier --write ." 
   },
+  "pre-commit": [
+    "prettier"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RuslanIbragimov5/admin-panel-makeup.git"
