@@ -7,7 +7,7 @@
     "prettier": "prettier --write ."
   },
   "pre-commit": [
-    "prettier",
+    "prettier"
   ],
   "repository": {
     "type": "git",
