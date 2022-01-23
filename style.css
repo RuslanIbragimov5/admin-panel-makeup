@@ -62,8 +62,8 @@ html,
 }
 .table__body {
   background: #a8a8ff;
-  overflow-y: scroll;
-  display: flex;
+          overflow-y: scroll;
+      display: flex;
   flex-direction: column;
   height: 100%;
 }
