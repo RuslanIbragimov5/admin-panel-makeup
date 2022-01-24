@@ -4,18 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": prettier --write .
-  },
-  "lint-staged": {
-    "*.js": [
-      "prettier --write ."
-    ]
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "lint-staged"
-    }
-  },
+    "prettier": "prettier --write src/**/*.{js,ts,css}"
+},
+"hooks": {
+  "pre-commit": "lint-staged"
+},
+"*.{js,json,md,html}": [
+  "prettier --write"
+],
+"*.css": [
+  "prettier --write",
+  "npm run lint-css"
+],
+"*.ts": [
+  "prettier --write",
+  "npm run lint"
+],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RuslanIbragimov5/admin-panel-makeup.git"
