@@ -6,9 +6,17 @@
   "scripts": {
     "prettier": "prettier --write ."
   },
-  "pre-commit": [
-    "prettier"
-  ],
+  "lint-staged": {
+    "*.": [
+      "eslint",
+      "prettier --write ."
+    ]
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RuslanIbragimov5/admin-panel-makeup.git"
@@ -20,7 +28,7 @@
   },
   "homepage": "https://github.com/RuslanIbragimov5/admin-panel-makeup#readme",
   "dependencies": {
-    "prettier": "^2.5.1",
-    "pre-commit": "^1.2.2"
+    "pre-commit": "^1.2.2",
+    "prettier": "^2.5.1"
   }
 }
