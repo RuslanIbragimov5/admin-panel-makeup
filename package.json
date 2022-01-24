@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write src/**/*.{js,ts,css}"
+    "prettier": "prettier --write src/**/*.{js,ts,css,html}"
 },
 "hooks": {
   "pre-commit": "lint-staged"
