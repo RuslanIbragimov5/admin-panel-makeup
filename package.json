@@ -7,7 +7,7 @@
     "prettier": "prettier --write ."
 },
 "hooks": {
-  "pre-commit": "lint-staged"
+  "pre-commit": "prettier --write ."
 },
 "*.{js,json,md,html}": [
   "prettier --write"
