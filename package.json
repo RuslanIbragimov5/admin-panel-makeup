@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "prettier": "prettier --write ."
+    "prettier": prettier --write .
   },
   "lint-staged": {
-    "*.": [
+    "*.js": [
       "prettier --write ."
     ]
   },
