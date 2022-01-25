@@ -6,8 +6,10 @@
   "scripts": {
     "prettier": "pretty-quick --staged"
   },
+  "husky": {
     "hooks": {
-    "pre-commit": "pretty-quick --staged"
+      "pre-commit": "pretty-quick --staged"
+    }
   },
   "repository": {
     "type": "git",
