@@ -4,11 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretty-quick": "pretty-quick"
+    "pretty-quick": "pretty-quick --staged"
   },
   "pre-commit": [
     "pretty-quick"
-],
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/RuslanIbragimov5/admin-panel-makeup.git"
