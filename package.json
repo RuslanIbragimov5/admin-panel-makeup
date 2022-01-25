@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "pretty-quick": "pretty-quick"
+    "prettier": "pretty-quick"
   },
   "husky": {
     "hooks": {
