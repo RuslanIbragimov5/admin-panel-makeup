@@ -20,7 +20,6 @@
   },
   "homepage": "https://github.com/RuslanIbragimov5/admin-panel-makeup#readme",
   "dependencies": {
-    "husky": "^7.0.4",
     "pre-commit": "^1.2.2",
     "prettier": "^2.5.1",
     "pretty-quick": "^3.1.3"
