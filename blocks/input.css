@@ -1,0 +1,133 @@
+html,
+.body {
+  background: #ffffff;
+  width: 352px;
+  height: 400px;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.container__input-rows {
+  width: 352px;
+  height: 400px;
+  border: 2px dashed #8055ff;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+}
+.input-rows {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.input-empty__date {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  margin-top: 8px;
+}
+.input-incorrected__date {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  margin-top: 8px;
+}
+.input-disabled__date {
+  font-family: Ubuntu;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  cursor: pointer;
+  display: block;
+  margin-top: 8px;
+}
+.input-incorrected__form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.input-disabled__form {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.empty-form {
+  padding: 4px 25px 4px 8px;
+  width: 100%;
+  min-width: 256px;
+  height: 32px;
+  background: #ffffff;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 8px 0px;
+  border: 1px solid #459df5;
+}
+.empty-form:focus {
+  box-shadow: 0 0 10px rgb(99, 161, 233);
+  border: 1px solid #459df5;
+}
+.empty-form::placeholder {
+  color: #bad8f5;
+}
+.incorrected-form {
+  padding: 4px 25px 4px 8px;
+  width: 100%;
+  min-width: 256px;
+  height: 32px;
+  background: #ffffff;
+  border: 1px solid #f53152;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 8px 0px;
+}
+.incorrected-form::placeholder {
+  color: #bad8f5;
+}
+.incorrected-form:focus {
+  box-shadow: 0 0 10px #f53152;
+  border: 1px solid #f53152;
+}
+.disabled-form {
+  padding: 4px 25px 4px 8px;
+  width: 100%;
+  min-width: 256px;
+  height: 32px;
+  background: #bad8f5;
+  border: 1px solid #459df5;
+  box-sizing: border-box;
+  border-radius: 4px;
+  margin: 8px 0px;
+}
+.disabled-form:focus {
+  box-shadow: 0 0 10px rgb(99, 161, 233);
+  border: 1px solid #459df5;
+}
+.button-form_x-medium {
+  height: 13px;
+  opacity: 0.5;
+  position: absolute;
+  right: 3.5px;
+  cursor: pointer;
+}
+.button-form_locked {
+  height: 14px;
+  width: 12px;
+  position: absolute;
+  right: 3.5px;
+}
