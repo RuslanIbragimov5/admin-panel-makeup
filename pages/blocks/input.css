@@ -37,6 +37,7 @@ html,
 .input-row__form:focus {
   box-shadow: 0 0 10px rgb(99, 161, 233);
   border: 1px solid #459df5;
+  outline: none;
 }
 .input-row__form::placeholder {
   color: #bad8f5;
@@ -46,6 +47,7 @@ html,
 }
 .input-row__form_incorrected:focus {
   box-shadow: 0 0 10px #f53152;
+  outline: none;
 }
 .input-row__form_disabled {
   background: #bad8f5;
