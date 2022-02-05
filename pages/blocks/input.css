@@ -38,6 +38,9 @@ html,
   box-shadow: 0 0 10px rgb(99, 161, 233);
   border: 1px solid #459df5;
 }
+.input-row__form::placeholder {
+  color: #bad8f5;
+}
 .input-row__form_incorrected {
   border: 1px solid #f53152;
 }
