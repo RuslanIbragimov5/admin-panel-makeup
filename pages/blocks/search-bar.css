@@ -28,10 +28,7 @@
   box-sizing: border-box;
   border-radius: 4px;
 }
-.searchbar-row__form_empty {
-  padding: 8px 4px 8px 32px;
-}
-.searchbar-row__form_filled {
+.searchbar-row__form {
   padding: 8px 36px 8px 32px;
 }
 .searchbar-row__form::placeholder {
