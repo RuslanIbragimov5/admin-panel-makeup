@@ -13,13 +13,28 @@
 .searchbar-row {
   position: relative;
   width: 256px;
+  display: flex;
+  align-items: center;
 }
 .searchbar-button {
   position: absolute;
+  width: 16px;
+  height: 16px;
+  bottom: 8px;
+  cursor: pointer;
+  right: 8px;
   border: none;
   background: none;
-  cursor: pointer;
-  padding: 0;
+  padding: 0px;
+  display: flex;
+}
+.searchbar-button__x-medium {
+  opacity: 0.3;
+}
+.searchbar-row__search-icon {
+  position: absolute;
+  left: 9px;
+  width: 16px;
 }
 .searchbar-row__form {
   width: 100%;
@@ -27,8 +42,6 @@
   border: 1px solid #459df5;
   box-sizing: border-box;
   border-radius: 4px;
-}
-.searchbar-row__form {
   padding: 8px 36px 8px 32px;
 }
 .searchbar-row__form::placeholder {
@@ -38,18 +51,4 @@
   box-shadow: 0 0 10px rgb(99, 161, 233);
   border: 1px solid #459df5;
   outline: none;
-}
-.searchbar-button__button-clear {
-  position: absolute;
-  width: 16px;
-  height: 16px;
-  top: 8px;
-  right: 8px;
-  opacity: 0.3;
-}
-.searchbar-button__button-search {
-  width: 16px;
-  height: 16px;
-  top: 8px;
-  left: 8px;
 }

@@ -33,6 +33,7 @@ html,
   border: 1px solid #459df5;
   box-sizing: border-box;
   border-radius: 4px;
+  color: #000000;
 }
 .input-row__form:focus {
   box-shadow: 0 0 10px rgb(99, 161, 233);
