@@ -13,8 +13,9 @@
     <link rel="stylesheet" href="input.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="search-bar.css" />
+    <link rel="stylesheet" href="checkbox-radio.css" />
 
-    <title></title>
+    <title>admin-panel-makeup</title>
   </head>
   <body>
     <div class="container">
@@ -136,6 +137,59 @@
             <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
           </svg>
         </button>
+      </div>
+    </div>
+    <!--checkbox-radio-->
+    <div class="container__checkbox">
+      <div class="checkbox">
+        <input type="checkbox" class="checkbox__block" id="checkboxOne" />
+        <label class="checkbox__label" for="checkboxOne">
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            fill="#8055FF"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+          </svg>
+        </label>
+      </div>
+
+      <div class="checkbox">
+        <input
+          type="checkbox"
+          class="checkbox__block"
+          id="checkboxTwo"
+          checked
+        />
+
+        <label class="checkbox__label" for="checkboxTwo">
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            fill="#8055FF"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+          </svg>
+        </label>
+      </div>
+    </div>
+
+    <div class="container__radio">
+      <div class="radio">
+        <input type="radio" name="radio" class="radio__block" id="radioOne" />
+        <label class="radio__label" for="radioOne"></label>
+      </div>
+      <div class="radio">
+        <input
+          type="radio"
+          name="radio"
+          class="radio__block"
+          id="radioTwo"
+          checked
+        />
+        <label class="radio__label" for="radioTwo"></label>
       </div>
     </div>
   </body>
