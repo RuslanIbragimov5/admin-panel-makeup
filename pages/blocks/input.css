@@ -65,9 +65,6 @@ html,
   cursor: pointer;
   display: flex;
 }
-.input-button__x-medium {
-  opacity: 0.3;
-}
 .input-icon_disabled {
   height: 16px;
   width: 16px;

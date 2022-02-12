@@ -28,9 +28,6 @@
   padding: 0px;
   display: flex;
 }
-.searchbar-button__x-medium {
-  opacity: 0.3;
-}
 .searchbar-row__search-icon {
   position: absolute;
   left: 9px;
