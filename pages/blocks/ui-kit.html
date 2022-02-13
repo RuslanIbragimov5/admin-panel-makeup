@@ -13,7 +13,8 @@
     <link rel="stylesheet" href="input.css" />
     <link rel="stylesheet" href="reset.css" />
     <link rel="stylesheet" href="search-bar.css" />
-
+    <link rel="stylesheet" href="checkbox-radio.css" />
+    <link rel="stylesheet" href="button.css" />
     <title></title>
   </head>
   <body>
@@ -136,6 +137,256 @@
             <path d="M12.5 3.5L3.5 12.5M3.5 3.5L12.5 12.5" fill="none" />
           </svg>
         </button>
+      </div>
+    </div>
+    <!--checkbox-radio-->
+    <div class="container__checkbox">
+      <div class="checkbox">
+        <input type="checkbox" class="checkbox__block" id="checkboxOne" />
+        <label class="checkbox__label" for="checkboxOne">
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            fill="#8055FF"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+          </svg>
+        </label>
+      </div>
+
+      <div class="checkbox">
+        <input
+          type="checkbox"
+          class="checkbox__block"
+          id="checkboxTwo"
+          checked
+        />
+
+        <label class="checkbox__label" for="checkboxTwo">
+          <svg
+            class="checkbox__icon"
+            viewBox="0 0 16 16"
+            fill="#8055FF"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+          </svg>
+        </label>
+      </div>
+    </div>
+
+    <div class="container__radio">
+      <div class="radio">
+        <input type="radio" name="radio" class="radio__block" id="radioOne" />
+        <label class="radio__label" for="radioOne"></label>
+      </div>
+      <div class="radio">
+        <input
+          type="radio"
+          name="radio"
+          class="radio__block"
+          id="radioTwo"
+          checked
+        />
+        <label class="radio__label" for="radioTwo"></label>
+      </div>
+    </div>
+    <!--Buttons-->
+    <div class="container__buttons">
+      <div class="button-group">
+        <div class="buttons-list">
+          <button
+            class="button button_theme_primary button_size_large buttons-list__button"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+            Text here
+          </button>
+
+          <button
+            class="button button_theme_primary button_size_large buttons-list__button"
+          >
+            Text here
+          </button>
+
+          <button
+            class="button button_theme_primary button_size_large-icon buttons-list__button-icon"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+          </button>
+
+          <button
+            class="button button_theme_primary button_size_small buttons-list__button"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+            Text here
+          </button>
+
+          <button
+            class="button button_theme_primary button_size_small buttons-list__button"
+          >
+            Text here
+          </button>
+
+          <button class="button button_theme_primary button_size_small-icon">
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="buttons-list">
+          <button
+            class="button button_theme_secondary button_size_large buttons-list__button"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+            Text here
+          </button>
+
+          <button
+            class="button button_theme_secondary button_size_large buttons-list__button"
+          >
+            Text here
+          </button>
+
+          <button
+            class="button button_theme_secondary button_size_large-icon buttons-list__button-icon"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+          </button>
+          <button
+            class="button button_theme_secondary button_size_small buttons-list__button"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+            Text here
+          </button>
+
+          <button
+            class="button button_theme_secondary button_size_small buttons-list__button"
+          >
+            Text here
+          </button>
+          <button class="button button_theme_secondary button_size_small-icon">
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+          </button>
+        </div>
+
+        <div class="buttons-list">
+          <button
+            class="button button_theme_tertiary button_size_large buttons-list__button"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+            Text here
+          </button>
+          <button
+            class="button button_theme_tertiary button_size_large buttons-list__button"
+          >
+            Text here
+          </button>
+          <button
+            class="button button_theme_tertiary button_size_large-icon buttons-list__button-icon"
+          >
+            <svg
+              class="icon"
+              viewBox="0 0 16 16"
+              fill="#8055FF"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <circle cx="8" cy="8" r="4" />
+              <path
+                d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+              />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
   </body>
