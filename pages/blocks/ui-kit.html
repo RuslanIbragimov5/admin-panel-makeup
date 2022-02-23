@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="checkbox-radio.css" />
     <link rel="stylesheet" href="button.css" />
     <link rel="stylesheet" href="icon.css" />
+    <link rel="stylesheet" href="dropdown.css" />
     <title></title>
   </head>
   <body>
@@ -387,6 +388,255 @@
               />
             </svg>
           </button>
+        </div>
+      </div>
+    </div>
+    <!--dropdown-->
+    <div class="container__dropdowns">
+      <div class="dropdown-group">
+        <div class="dropdown-group__top">
+          <div class="dropdown dropdown-group__dropdown">
+            <div class="checkbox dropdown__checkbox">
+              <input type="checkbox" class="checkbox__block" id="checkboxNew" />
+              <label class="checkbox__label" for="checkboxNew"
+                >Новый
+                <svg
+                  class="checkbox__icon"
+                  viewBox="0 0 16 16"
+                  fill="#8055FF"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+                </svg>
+              </label>
+            </div>
+            <div class="checkbox dropdown__checkbox">
+              <input
+                type="checkbox"
+                class="checkbox__block"
+                id="checkboxCalculation"
+              />
+              <label class="checkbox__label" for="checkboxCalculation"
+                >Расчет
+                <svg
+                  class="checkbox__icon"
+                  viewBox="0 0 16 16"
+                  fill="#8055FF"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+                </svg>
+              </label>
+            </div>
+            <div class="checkbox dropdown__checkbox">
+              <input
+                type="checkbox"
+                class="checkbox__block"
+                id="checkboxConfirmed"
+                checked
+              />
+              <label class="checkbox__label" for="checkboxConfirmed"
+                >Подтвержден
+                <svg
+                  class="checkbox__icon"
+                  viewBox="0 0 16 16"
+                  fill="#8055FF"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+                </svg>
+              </label>
+            </div>
+            <div class="checkbox dropdown__checkbox">
+              <input
+                type="checkbox"
+                class="checkbox__block"
+                id="checkboxPostponed"
+              />
+              <label class="checkbox__label" for="checkboxPostponed"
+                >Отложен
+                <svg
+                  class="checkbox__icon"
+                  viewBox="0 0 16 16"
+                  fill="#8055FF"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+                </svg>
+              </label>
+            </div>
+            <div class="checkbox dropdown__checkbox">
+              <input
+                type="checkbox"
+                class="checkbox__block"
+                id="checkboxCompleted"
+              />
+              <label class="checkbox__label" for="checkboxCompleted"
+                >Выполнен
+                <svg
+                  class="checkbox__icon"
+                  viewBox="0 0 16 16"
+                  fill="#8055FF"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+                </svg>
+              </label>
+            </div>
+            <div class="checkbox dropdown__checkbox">
+              <input
+                type="checkbox"
+                class="checkbox__block"
+                id="checkboxCanceled"
+              />
+              <label class="checkbox__label" for="checkboxCanceled"
+                >Отменен
+                <svg
+                  class="checkbox__icon"
+                  viewBox="0 0 16 16"
+                  fill="#8055FF"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path d="M7 10 4.5 6 3 7l4 7 7.5-10.5V3L13 2l-6 8Z" />
+                </svg>
+              </label>
+            </div>
+          </div>
+
+          <div class="dropdown dropdown-group__dropdown">
+            <div class="radio dropdown__radio">
+              <input
+                type="radio"
+                name="radio"
+                class="radio__block-dropdown"
+                id="radioNew"
+              />
+              <label class="radio__label-dropdown" for="radioNew">Новый</label>
+            </div>
+            <div class="radio dropdown__radio">
+              <input
+                type="radio"
+                name="radio"
+                class="radio__block-dropdown"
+                id="radioCalcilation"
+              />
+              <label class="radio__label-dropdown" for="radioCalcilation"
+                >Расчет</label
+              >
+            </div>
+
+            <div class="radio dropdown__radio">
+              <input
+                type="radio"
+                name="radio"
+                class="radio__block-dropdown"
+                id="radioConfirmed"
+                checked
+              />
+              <label class="radio__label-dropdown" for="radioConfirmed"
+                >Подтвержден</label
+              >
+            </div>
+            <div class="radio dropdown__radio">
+              <input
+                type="radio"
+                name="radio"
+                class="radio__block-dropdown"
+                id="radioPostponed"
+              />
+              <label class="radio__label-dropdown" for="radioPostponed"
+                >Отложен</label
+              >
+            </div>
+
+            <div class="radio dropdown__radio">
+              <input
+                type="radio"
+                name="radio"
+                class="radio__block-dropdown"
+                id="radioCompleted"
+              />
+              <label class="radio__label-dropdown" for="radioCompleted"
+                >Выполнен</label
+              >
+            </div>
+
+            <div class="radio dropdown__radio">
+              <input
+                type="radio"
+                name="radio"
+                class="radio__block-dropdown"
+                id="radioCanceled"
+              />
+              <label class="radio__label-dropdown" for="radioCanceled"
+                >Отменен</label
+              >
+            </div>
+          </div>
+        </div>
+
+        <div class="dropdown-group__bottom">
+          <div class="dropdown dropdown-group">
+            <div class="input-page__wrapper">
+              <label class="input-page__label" for="inputPage"
+                >Номер страницы</label
+              >
+              <input
+                class="input-page__form"
+                type="text"
+                id="inputPage"
+                placeholder="Введите номер"
+                value=""
+              />
+            </div>
+          </div>
+
+          <div class="dropdown dropdown-group">
+            <label class="dropdown__label">Удалить n записей?</label>
+            <button
+              class="button button_theme_secondary button_size_small button_width-full buttons-space__button"
+            >
+              Удалить
+            </button>
+            <button
+              class="button button_theme_primary button_size_small button_width-full"
+            >
+              Отмена
+            </button>
+          </div>
+
+          <div class="dropdown dropdown-group">
+            <label class="dropdown__label">Выберите тему</label>
+            <button
+              class="button button_theme_secondary button_size_small button_width-full buttons-space__button"
+            >
+              <svg
+                class="icon"
+                viewBox="0 0 16 16"
+                fill="#8055FF"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <circle cx="8" cy="8" r="4" />
+                <path
+                  d="m15 9 1-1-1-1h-2v2h2ZM1 9 0 8l1-1h2v2H1ZM7 15l1 1 1-1v-2H7v2ZM7 1l1-1 1 1v2H7V1ZM12.5 14H14v-1.5L12.5 11 11 12.5l1.5 1.5ZM2 3.5V2h1.5L5 3.5 3.5 5 2 3.5ZM3.5 14H2v-1.5L3.5 11 5 12.5 3.5 14ZM14 3.5V2h-1.5L11 3.5 12.5 5 14 3.5Z"
+                /></svg
+              >Светлая
+            </button>
+            <button
+              class="button button_theme_primary button_size_small button_width-full"
+            >
+              <svg
+                class="icon"
+                viewBox="0 0 16 16"
+                fill="#8055FF"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M8 15c4.027 0 7.5-3.498 7-7.5-.231 2.547-2.393 4.5-5 4.5a5 5 0 0 1 0-10c1 0 2 .5 2 .5-1-1-2-1.5-4-1.5a7 7 0 0 0 0 14Z"
+                /></svg
+              >Темная
+            </button>
+          </div>
         </div>
       </div>
     </div>
