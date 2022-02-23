@@ -1,0 +1,29 @@
+.icon {
+  height: 16px;
+  width: 16px;
+}
+.button_theme_primary .icon {
+  fill: #ffffff;
+}
+.button_theme_secondary .icon {
+  fill: #459df5;
+}
+.button_theme_tertiary .icon {
+  fill: #000000;
+}
+.button_size_large .icon {
+  margin-right: 8px;
+}
+.button_size_small .icon {
+  margin-right: 4px;
+}
+.button_size_large-icon {
+  padding: 8px;
+  height: 32px;
+  width: 32px;
+}
+.button_size_small-icon {
+  padding: 4px;
+  width: 24px;
+  height: 24px;
+}
