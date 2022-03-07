@@ -27,6 +27,8 @@
 }
 .checkbox__label {
   display: flex;
+  font-size: 13px;
+  line-height: 16px;
 }
 .checkbox__label::before {
   content: "";

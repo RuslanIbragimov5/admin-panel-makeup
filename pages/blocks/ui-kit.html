@@ -396,9 +396,9 @@
       <div class="dropdown-group">
         <div class="dropdown-group__top">
           <div class="dropdown dropdown-group__dropdown">
-            <div class="checkbox dropdown__checkbox">
+            <div class="checkbox__dropdown">
               <input type="checkbox" class="checkbox__block" id="checkboxNew" />
-              <label class="checkbox__label" for="checkboxNew"
+              <label class="checkbox__label-dropdown" for="checkboxNew"
                 >Новый
                 <svg
                   class="checkbox__icon"
@@ -410,13 +410,13 @@
                 </svg>
               </label>
             </div>
-            <div class="checkbox dropdown__checkbox">
+            <div class="checkbox__dropdown">
               <input
                 type="checkbox"
                 class="checkbox__block"
                 id="checkboxCalculation"
               />
-              <label class="checkbox__label" for="checkboxCalculation"
+              <label class="checkbox__label-dropdown" for="checkboxCalculation"
                 >Расчет
                 <svg
                   class="checkbox__icon"
@@ -428,14 +428,14 @@
                 </svg>
               </label>
             </div>
-            <div class="checkbox dropdown__checkbox">
+            <div class="checkbox__dropdown">
               <input
                 type="checkbox"
                 class="checkbox__block"
                 id="checkboxConfirmed"
                 checked
               />
-              <label class="checkbox__label" for="checkboxConfirmed"
+              <label class="checkbox__label-dropdown" for="checkboxConfirmed"
                 >Подтвержден
                 <svg
                   class="checkbox__icon"
@@ -447,13 +447,13 @@
                 </svg>
               </label>
             </div>
-            <div class="checkbox dropdown__checkbox">
+            <div class="checkbox__dropdown">
               <input
                 type="checkbox"
                 class="checkbox__block"
                 id="checkboxPostponed"
               />
-              <label class="checkbox__label" for="checkboxPostponed"
+              <label class="checkbox__label-dropdown" for="checkboxPostponed"
                 >Отложен
                 <svg
                   class="checkbox__icon"
@@ -465,13 +465,13 @@
                 </svg>
               </label>
             </div>
-            <div class="checkbox dropdown__checkbox">
+            <div class="checkbox__dropdown">
               <input
                 type="checkbox"
                 class="checkbox__block"
                 id="checkboxCompleted"
               />
-              <label class="checkbox__label" for="checkboxCompleted"
+              <label class="checkbox__label-dropdown" for="checkboxCompleted"
                 >Выполнен
                 <svg
                   class="checkbox__icon"
@@ -483,13 +483,13 @@
                 </svg>
               </label>
             </div>
-            <div class="checkbox dropdown__checkbox">
+            <div class="checkbox__dropdown">
               <input
                 type="checkbox"
                 class="checkbox__block"
                 id="checkboxCanceled"
               />
-              <label class="checkbox__label" for="checkboxCanceled"
+              <label class="checkbox__label-dropdown" for="checkboxCanceled"
                 >Отменен
                 <svg
                   class="checkbox__icon"
@@ -504,20 +504,20 @@
           </div>
 
           <div class="dropdown dropdown-group__dropdown">
-            <div class="radio dropdown__radio">
+            <div class="radio__dropdown">
               <input
                 type="radio"
                 name="dropdownRadio"
-                class="radio__block-dropdown"
+                class="radio__block"
                 id="radioNew"
               />
               <label class="radio__label-dropdown" for="radioNew">Новый</label>
             </div>
-            <div class="radio dropdown__radio">
+            <div class="radio__dropdown">
               <input
                 type="radio"
                 name="dropdownRadio"
-                class="radio__block-dropdown"
+                class="radio__block"
                 id="radioCalcilation"
               />
               <label class="radio__label-dropdown" for="radioCalcilation"
@@ -525,11 +525,11 @@
               >
             </div>
 
-            <div class="radio dropdown__radio">
+            <div class="radio__dropdown">
               <input
                 type="radio"
                 name="dropdownRadio"
-                class="radio__block-dropdown"
+                class="radio__block"
                 id="radioConfirmed"
                 checked
               />
@@ -537,11 +537,11 @@
                 >Подтвержден</label
               >
             </div>
-            <div class="radio dropdown__radio">
+            <div class="radio__dropdown">
               <input
                 type="radio"
                 name="dropdownRadio"
-                class="radio__block-dropdown"
+                class="radio__block"
                 id="radioPostponed"
               />
               <label class="radio__label-dropdown" for="radioPostponed"
@@ -549,11 +549,11 @@
               >
             </div>
 
-            <div class="radio dropdown__radio">
+            <div class="radio__dropdown">
               <input
                 type="radio"
                 name="dropdownRadio"
-                class="radio__block-dropdown"
+                class="radio__block"
                 id="radioCompleted"
               />
               <label class="radio__label-dropdown" for="radioCompleted"
@@ -561,11 +561,11 @@
               >
             </div>
 
-            <div class="radio dropdown__radio">
+            <div class="radio__dropdown">
               <input
                 type="radio"
                 name="dropdownRadio"
-                class="radio__block-dropdown"
+                class="radio__block"
                 id="radioCanceled"
               />
               <label class="radio__label-dropdown" for="radioCanceled"
@@ -577,14 +577,14 @@
 
         <div class="dropdown-group__bottom">
           <div class="dropdown dropdown-group">
-            <div class="input-page__wrapper">
-              <label class="input-page__label" for="inputPage"
+            <div class="input-row">
+              <label class="input-row__label" for="inputRow"
                 >Номер страницы</label
               >
               <input
-                class="input-page__form"
+                class="input-row__form"
                 type="text"
-                id="inputPage"
+                id="inputRow"
                 placeholder="Введите номер"
                 value=""
               />
@@ -594,7 +594,7 @@
           <div class="dropdown dropdown-group">
             <label class="dropdown__label">Удалить n записей?</label>
             <button
-              class="button button_theme_secondary button_size_small button_width-full buttons-space__button"
+              class="button button_theme_secondary button_size_small button_width-full button_space"
             >
               Удалить
             </button>
@@ -608,7 +608,7 @@
           <div class="dropdown dropdown-group">
             <label class="dropdown__label">Выберите тему</label>
             <button
-              class="button button_theme_secondary button_size_small button_width-full buttons-space__button"
+              class="button button_theme_secondary button_size_small button_width-full button_space"
             >
               <svg
                 class="icon"

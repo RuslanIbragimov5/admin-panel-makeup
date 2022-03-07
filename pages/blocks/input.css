@@ -15,7 +15,6 @@ html,
 }
 .input-row {
   position: relative;
-  width: 256px;
 }
 .input-row__label {
   display: block;
