@@ -35,6 +35,9 @@
   line-height: 16px;
   margin-bottom: 10px;
 }
+.dropdown__space {
+  margin-bottom: 6px;
+}
 .dropdown-group__dropdown {
   margin-right: 48px;
 }
@@ -115,9 +118,6 @@
 .button_size_small {
   padding: 4px 8px;
   height: 24px;
-}
-.dropdown__space {
-  margin-bottom: 6px;
 }
 .input-row {
   position: relative;
